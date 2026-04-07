@@ -11,7 +11,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 public class OrderDTOFromFE {
 	
-	private List<FoodItemsDTO> foodItemsList;
+	private List<FoodItemsDTO> foodItemsListDTO;
 	private Integer userId;
-	private Restaurant restaurant;
+	private RestaurantDTO restaurantDTO;
 }
